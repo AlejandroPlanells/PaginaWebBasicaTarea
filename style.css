@@ -1,0 +1,141 @@
+body {
+    font-family: 'Sunflower', sans-serif;
+}
+
+#PaginaEntera{
+    margin-left:250px;
+}
+
+a {
+    color: #108610;
+}
+/* Cabecera + menu */
+
+#cabecera-principal {
+    width: 920px;
+    height: 100px;
+    border-radius: 25px;
+    background: rgb(62,151,35);
+    background: linear-gradient(180deg, rgba(62,151,35,1) 0%, rgba(62,151,35,1) 85%, rgba(185,220,64,1) 100%);
+    padding: 20px;
+}
+
+#T-izquierda {
+    position: relative;
+    text-align: left;
+    line-height: 3px;
+    padding-top:18px;
+    font-size:22px;
+}
+#T-izquierda h1 {
+    text-shadow: 1px 1px yellow;
+}
+
+#nav {
+    position: relative;
+    text-align: right;
+    margin-top:-10px;
+}
+
+#menu li {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    display: inline;
+    border-radius: 5px;
+    background: linear-gradient(to right, #acd34b, white, #acd34b);
+}
+
+    #menu li:hover {
+        background: #c19c43;
+    }
+
+
+
+/* Div-Padre */
+#div-padre {
+    width: 960px;
+    height: 250px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border: 3px solid #439a23;
+    border-bottom-style: none;
+}
+
+/* Cabecera divs azules */
+.cabecera-divs {
+    background-color: #3C74E6;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    box-shadow: 3px 3px 3px black;
+}
+
+/* div-izquierda, div de la izquierda */
+#div-izquierda {
+    width: 220px;
+    margin-left:20px;
+    float: left
+}
+
+#div-izquierda a {
+    text-decoration: none;
+}
+
+
+
+
+/* div-central, div central*/
+#div-central {
+    width: 480px;
+    float: left;
+    padding-left: 20px;
+}
+
+#info1 {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#info1 img{
+    float:left;
+    margin-right:15px;
+}
+
+#info2 {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Fechas-divs */
+.fechas-cabecera {
+    float: right;
+    margin-right: 10px;
+}
+
+/* div-derecha, div de la derecha */
+#div-derecha {
+    width: 180px;
+    float: left;
+    padding-left: 20px;
+}
+#marco {
+    border-style: solid;
+    border-width: 1px;
+    width: 100px;
+    height: 400px;
+    margin-left: 40px;
+}
+/* Footer */
+footer {
+    width: 960px;
+    text-align: center;
+    clear: both;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border: 3px solid #439a23;
+    border-bottom-style: none;
+}
